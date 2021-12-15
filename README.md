@@ -13,7 +13,7 @@ az storage account create -n wesbesttf -g wesbesttfstates -l westeurope --sku St
 az storage container create -n tfstatedevops
 ```
 
-## Step 2: Create Azure container to store state file
+## Step 2: Create Azure Service Principal
 ```
 # Create Service Principal 
 az ad sp create-for-rbac --name wesbesttf2
